@@ -9,3 +9,6 @@ Here we give an illustration of the main file result.ipynb.
 1. First given a stock file name, we equally separate the date into two parts, with the first part begin training set, and the second part aims for testing (with commend  `[train, test, date_split] = read_file(filename)`), we can also visualize the change of stock price over a period with commend `plot_train_test(train, test, date_split)`
 ! [Screenshot of a stock prices, green for price increases and red for price decreases.](http)
 
+2. We wrap up one RL model for one stock in the report function, for example by coding `DQN_report(train)` we can give a list result including
+
+
