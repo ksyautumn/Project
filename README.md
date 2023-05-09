@@ -13,6 +13,6 @@ Here we give an illustration of the main file result.ipynb.
 
 3. Similarly we can code `DoubleDQN_report(train)` and `DuelDouDQN_report(train)`
 
-4. Finally we add some test to check the framework
+4. Finally we add some test to check the framework (validity of input)
 
 
