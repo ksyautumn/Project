@@ -3,3 +3,7 @@
 This is a solver for financial stocks information. Particularly, we consider three RL methods: DQN, Double DQN and Duel Double DQN.
 
 Notice that the main difference between theses three methods is how we update the Q value.
+
+Here we give an illustration of the main file result.ipynb.
+
+1. 
