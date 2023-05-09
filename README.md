@@ -7,11 +7,11 @@ Notice that the main difference between theses three methods is how we update th
 Here we give an illustration of the main file result.ipynb.
 
 1. First given a stock file name, we equally separate the date into two parts, with the first part begin training set, and the second part aims for testing (with commend  `[train, test, date_split] = read_file(filename)`), we can also visualize the change of stock price over a period with commend `plot_train_test(train, test, date_split)`
-! [Screenshot of a stock prices, green for price increases and red for price decreases.](https://github.com/ksyautumn/Project/blob/main/visulization/data_visual1.jpg)
+ [Screenshot of a stock prices, green for price increases and red for price decreases.](https://github.com/ksyautumn/Project/blob/main/visulization/data_visual1.jpg)
 
 2. We wrap up one RL model for one stock in the report function, for example by coding `DQN_report(train)` we can give a list result including the inter-stage report of profit, execute time for the programming, and also a record for the loss and reward at difference epoches. We also visualize the training result. Particularly, in our environment we have three possible movements in each step: we can either buy (in gray), sell (in cyan) or hold (magenta).
 
-3. Similarly we can code `DoubleDQN_report(train)`(! [Loss and Reward for DDQN](https://github.com/ksyautumn/Project/blob/main/visulization/loss_DDQN.jpg)), (! [Position Simulation for DDQN](https://github.com/ksyautumn/Project/blob/main/visulization/DoubleDQN.jpg)) and `DuelDouDQN_report(train)` (! [Loss and Reward for DDDQN](https://github.com/ksyautumn/Project/blob/main/visulization/loss_DDDQN.jpg)), (! [Position Simulation for DDQN](https://github.com/ksyautumn/Project/blob/main/visulization/DuelDou.jpg))
+3. Similarly we can code `DoubleDQN_report(train)`(! [Loss and Reward for DDQN](https://github.com/ksyautumn/Project/blob/main/visualization/loss_DDQN.jpg)), (! [Position Simulation for DDQN](https://github.com/ksyautumn/Project/blob/main/visualization/DoubleDQN.jpg)) and `DuelDouDQN_report(train)` ([Loss and Reward for DDDQN](https://github.com/ksyautumn/Project/blob/main/visualization/loss_DDDQN.jpg)), ([Position Simulation for DDQN](https://github.com/ksyautumn/Project/blob/main/visualization/DuelDou.jpg))
 
 4. Finally we add some test to check the framework (validity of input)
 
